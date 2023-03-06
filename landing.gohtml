@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+	{{ template "head" . }} 
+	<body>
+		{{ range $k,$v := .Links }}
+		<a href="{{ $v.Url }}">{{ $v.Desc }}</a><br/>
+		{{ end }}
+	</body>
+</html>
