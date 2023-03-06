@@ -29,6 +29,6 @@ go.work
 # Ignore the binary
 go-udm-iptv-helper
 
-!.gitkeep
 # Ignore vale styles folders
 styles/*
+!.gitkeep
